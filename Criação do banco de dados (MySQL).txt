@@ -1,4 +1,4 @@
-CREATE TABLE `db_vinicios`.`agendamento` (
+CREATE TABLE `db_vinicios`.`agendamentos` (
 `id` INT NOT NULL AUTO_INCREMENT,
 `nome` VARCHAR(25) NOT NULL,
 `assunto` VARCHAR(50) NOT NULL,
