@@ -1,0 +1,9 @@
+CREATE TABLE `db_vinicios`.`agendamento` (
+`id` INT NOT NULL AUTO_INCREMENT,
+`nome` VARCHAR(25) NOT NULL,
+`assunto` VARCHAR(50) NOT NULL,
+`sala` VARCHAR(50) NOT NULL,
+ `data` DATE NOT NULL,
+ `inicio` TIME NOT NULL,
+ `termino` TIME NOT NULL,
+ PRIMARY KEY (`id`)) ENGINE = InnoDB;

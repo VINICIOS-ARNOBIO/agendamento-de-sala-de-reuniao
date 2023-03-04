@@ -1,0 +1,82 @@
+.container{
+    margin-top: 2.5%;
+}
+
+body{
+    background-color: rgb(218, 218, 218);
+}
+
+#col-verificar{
+    background-color: #ececec !important;
+    position: relative;
+    padding: 2% 3% 3% 3%;
+    width: 50%;
+    height: 720px;
+}
+
+#col-agendar{
+    background-color: #425a75 !important;
+    position: relative;
+    padding: 2% 3% 3% 3%;
+    width: 50%;
+    height: 720px;
+}
+
+.verificar-titulo{
+    color: #425a75 !important;
+    text-align: center;
+    font-size: 25px;
+}
+
+.label-verificar{
+    color: black !important;
+}
+
+.texto-disponibilidade{
+    color: black !important;
+}
+
+.agendar-titulo{
+    color: rgb(231, 231, 231);
+    font-size: 25px;
+    text-align: center;
+}
+
+.form-select{
+    font-size: 15px !important;
+}
+
+.datepicker-container {
+    position: relative;
+}
+.datepicker-dropdown {
+    position: absolute;
+    top: 100% !important;
+    left: 0;
+    z-index: 9999;
+}
+
+.label-agendar{
+    color: rgb(231, 231, 231);
+}
+
+#appearance-select {
+    -webkit-appearance: none;
+    /* Remove estilo padrão do Chrome */
+    -moz-appearance: none;
+    /* Remove estilo padrão do FireFox */
+    appearance: none;
+    /* Remove estilo padrão do FireFox*/
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+    /* Imagem de fundo (Seta) */
+    background-position: 218px center;
+    /*Posição da imagem do background*/
+    width: 45%;
+    /* Tamanho do select, maior que o tamanho da div "div-select" */
+    height: 30px;
+    /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 17px;
+    text-align: center;
+}
